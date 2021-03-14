@@ -1,13 +1,18 @@
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "610d22f0-64ac-403c-9956-ea029e5a194e", // The ID of this integration.
-      region: "us-south", // The region your integration is hosted in.
-      serviceInstanceID: "da03256c-ca5d-44b0-806e-21d59460a0ac", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+<!html>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "610d22f0-64ac-403c-9956-ea029e5a194e", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "da03256c-ca5d-44b0-806e-21d59460a0ac", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <body>
+    <h1>CLIQUE NO ICONE DO CHATBOT!</h1>
+  </body>
+</html>
